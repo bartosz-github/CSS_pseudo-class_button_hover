@@ -5,3 +5,13 @@ body {
 button:hover {
     cursor: pointer;
 }
+
+/* form:checked {
+    color: red;
+} */
+
+input:checked {
+    border: none;
+    outline: 2px solid deeppink;
+  }
+  
