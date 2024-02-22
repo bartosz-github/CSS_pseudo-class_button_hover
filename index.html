@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>CSS pseudo-class button hover</title>
+    <title>CSS pseudo-class</title>
 </head>
 <body>
 
-    <button onclick="document.getElementById('myInput1').value = ''">Clear input field</button>
-    <br>
-    
-    <form >
-        <input type="text" value="foobar" id="myInput1">
+<h1>Pseudo-class</h1>
 
-        <p>How did you find out about us?</p>
-        <label><input name="origin" type="radio" value="google" checked /> Google</label>
+<h2>Pseudo-class - hover</h2>
+
+<span>
+    <div class="button1">
+            <button type="button">Button with hover pseudo-class</button>
+    </div>
+</span>
+    <!-- <button onclick="document.getElementById('myInput1').value = ''">Clear input field</button> -->
+    <br>
+<h2>Pseudo-class - checked</h2>
+    <form >
+        <!-- <input type="text" value="foobar" id="myInput1"> -->
+
+        <p>CSS element checked?</p>
+        <label><input name="origin" type="radio" value="google" /> Element Checked CSS</label> <!--checked -->
         <label><input name="origin" type="radio" value="facebook" /> Facebook</label>
 
         <p>Please agree to our terms:</p>      
-        <label><input name="newsletter" type="checkbox" /> I want to subscribe to a personalized newsletter.</label> 
+        <label><input name="newsletter" type="checkbox" /> I want to subscribe to a personalized newsletter.</label>  <!--checked -->
+        <br>
         <label><input name="privacy" type="checkbox"/> I have read and I agree to the Privacy Policy.</label>
+        <br>
         <br>
         <input type="reset" value="Reset">
         <input type="submit" value="Submit">
@@ -38,6 +49,8 @@
       <input type="checkbox" name="vehicle3" value="Boat" checked id="myInput4">
       <label for="vehicle3"> I have a boat</label>
  -->
+
+ <h2>Pseudo-class - dynamically target n-th element of a list</h2>
 
 </body>
 </html>

@@ -2,13 +2,22 @@ body {
     background-color: slategray;
 }
 
-button:hover {
-    cursor: pointer;
+.button1:hover {
+    cursor: grab;
 }
 
-/* form:checked {
-    color: red;
-} */
+.button1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-style: solid;
+}
+
+button:hover {
+
+    cursor: grabbing;
+}
 
 input:checked {
     border: none;
