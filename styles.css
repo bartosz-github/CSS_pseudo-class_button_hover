@@ -22,5 +22,17 @@ button:hover {
 input:checked {
     border: none;
     outline: 2px solid DodgerBlue;
-  }
-  
+}
+
+
+li:first-child {
+    color:cornflowerblue;
+}
+
+li:nth-last-child(1) {
+    color:azure
+}
+
+li:nth-child(2n) { /*(3n-1) - where index (position?) is a multiple of 3, minus one*/
+    color:darkmagenta;
+}
