@@ -38,7 +38,17 @@ li:nth-child(2n) { /*(3n-1) - where index (position?) is a multiple of 3, minus 
 }
 
 a:link {
-    color: darkblue;
-    background-color: peachpuff;
+    color: skyblue;
+    background-color: navy;
     text-decoration: none;
+}
+
+a:visited {
+    color: darkorange;
+    background-color: darkgoldenrod;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
