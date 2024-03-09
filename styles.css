@@ -36,3 +36,9 @@ li:nth-last-child(1) {
 li:nth-child(2n) { /*(3n-1) - where index (position?) is a multiple of 3, minus one*/
     color:darkmagenta;
 }
+
+a:link {
+    color: darkblue;
+    background-color: peachpuff;
+    text-decoration: none;
+}
